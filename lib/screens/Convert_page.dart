@@ -81,7 +81,7 @@ class _ConvertState extends State<Convert> {
                 ],
               ),
               child: Column(
-                children: [
+                children:<Widget> [
                   Expanded(
                     flex: 5,
                     child: Row(
@@ -145,7 +145,7 @@ class _ConvertState extends State<Convert> {
                         ],
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             ),

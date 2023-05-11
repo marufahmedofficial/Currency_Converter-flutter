@@ -20,7 +20,7 @@ class _ListPageState extends State<ListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [
+        children:<Widget> [
           Expanded(
             flex: 1,
             child: Row(
