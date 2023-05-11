@@ -1,7 +1,7 @@
-
-import 'package:currency/modal/bookmark_modal.dart';
-import 'package:currency/modal/currency_modal.dart';
 import 'package:flutter/material.dart';
+
+import '../modal/bookmark_modal.dart';
+import '../modal/currency_modal.dart';
 
 class BookMarkProvider extends ChangeNotifier{
   Bookmark bookmark = Bookmark(data: []);

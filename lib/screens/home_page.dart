@@ -1,13 +1,13 @@
-import 'package:currency/view/screens/profile_page_3.dart';
+import 'package:currency_converter_flutter/screens/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rolling_bottom_bar/rolling_bottom_bar.dart';
 import 'package:rolling_bottom_bar/rolling_bottom_bar_item.dart';
 
 import '../../provider/theme_changer_provider.dart';
-import 'Convert_page_1.dart';
-import 'book_mark_page_3.dart';
-import 'list_page_2.dart';
+import 'Convert_page.dart';
+import 'book_mark_page.dart';
+import 'list_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

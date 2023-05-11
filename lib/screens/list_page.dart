@@ -1,10 +1,9 @@
-import 'package:currency/provider/bookmark_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../../helper/api.helper.dart';
 import '../../modal/currency_modal.dart';
 import '../../provider/theme_changer_provider.dart';
+import '../helper/api_helper.dart';
+import '../provider/bookmark_provider.dart';
 
 class ListPage extends StatefulWidget {
   const ListPage({Key? key}) : super(key: key);

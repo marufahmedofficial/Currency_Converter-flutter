@@ -1,5 +1,5 @@
-import 'package:currency/modal/currency_modal.dart';
 
+import 'currency_modal.dart';
 class Bookmark{
   List<AllCurrency> data;
 

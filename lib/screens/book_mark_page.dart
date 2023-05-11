@@ -1,9 +1,9 @@
-import 'package:currency/modal/currency_modal.dart';
-import 'package:currency/provider/bookmark_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../provider/theme_changer_provider.dart';
+import '../modal/currency_modal.dart';
+import '../provider/bookmark_provider.dart';
 
 class BookMarkPage extends StatefulWidget {
   const BookMarkPage({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class _BookMarkPageState extends State<BookMarkPage> {
               .data
               .length,
           itemBuilder: (context, index) {
-            List<AllCurrency> data = Provider.of<BookMarkProvider>(context, listen: true)
+            List data = Provider.of<BookMarkProvider>(context, listen: true)
                 .bookmark
                 .data;
             return Padding(
